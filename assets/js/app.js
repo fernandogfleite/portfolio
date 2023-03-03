@@ -18,7 +18,6 @@ projects.forEach((card, index) => {
         }
       });
       card.classList.add("active");
-      console.log("clickou");
     }
   });
 });

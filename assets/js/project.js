@@ -1,24 +1,11 @@
 let projectData = [
   {
-    image: "img/project-1.png",
-    name: "Python DRF",
-    detail: "Lorem ipsum dolor sit amet",
-    github: "https://github.com/fernandogfleite",
-    tags: "#python, #drf, #todos",
-  },
-  {
-    image: "img/project-2.png",
-    name: "DRF",
-    detail: "Lorem ipsum dolor sit amet",
-    github: "https://github.com/fernandogfleite",
-    tags: "#drf, #todos",
-  },
-  {
-    image: "img/project-3.png",
-    name: "Node",
-    detail: "Lorem ipsum dolor sit amet",
-    github: "https://github.com/fernandogfleite",
-    tags: "#node, #todos",
+    image: "assets/img/project-1.png",
+    name: "RSA Web",
+    detail:
+      "O projeto consiste na criação de uma chave pública e uma privada utilizando números primos grandes para criptografar e descriptografar mensagens.",
+    github: "https://github.com/fernandogfleite/md-web",
+    tags: "#python, #django, #todos",
   },
 ];
 
@@ -29,7 +16,7 @@ const createProjectCards = (data) => {
           <div class="project-card" data-tags="${data.tags}">
               <div class="project-wrapper">
                   <div class="project-thumbnail">
-                      <img src="img/close.png" class="close-btn" alt="">
+                      <img src="assets/img/close.png" class="close-btn" alt="">
                       <img src="${data.image}" class="project-img" alt="">
                       <span class="tags">${data.tags}</span>
                   </div>
